@@ -5,6 +5,8 @@ Beispiele für die [M5STACK](https://docs.m5stack.com/en/products) Controller.
 
 Dieses Repository basiert auf den Erfahrungen mit dem [IoTKitV1 - V3](https://github.com/iotkitv3/intro).
 
+Erweiterung und Ergänzungen von Philipp Albrecht.
+
 ## Grundlagen
 
 * [Hardware](hw/)

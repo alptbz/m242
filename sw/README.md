@@ -1,20 +1,23 @@
-Software
---------
+# Software
 ***
 
 > [⇧ **Home**](../README.md)
 
 
-### Inhaltsverzeichnis
+## Inhaltsverzeichnis
 
-* [Einleitung](#einleitung)
-* [Hardware Driver](#hardware-driver)
-* [Burning Tool](#burning-tool)
-* [Konfiguration / Start Mode](#konfiguration--start-mode)
-* [UIFlow IDE](#uiflow)
-* [Adafruit MicroPython tool - ampy](#ampy)
+- [Software](#software)
+  - [Inhaltsverzeichnis](#inhaltsverzeichnis)
+  - [Einleitung](#einleitung)
+  - [Hardware Driver](#hardware-driver)
+  - [Burning Tool](#burning-tool)
+    - [Konfiguration / Start Mode](#konfiguration--start-mode)
+    - [Videoanleitung - Installation M5Burner and Core2 UiFlow firmware flash](#videoanleitung---installation-m5burner-and-core2-uiflow-firmware-flash)
+    - [Videoanleitung - Umschaltung zwischen dem Internet Mode und App Mode - Developing / Deployment](#videoanleitung---umschaltung-zwischen-dem-internet-mode-und-app-mode---developing--deployment)
+  - [UIFlow](#uiflow)
+  - [Ampy](#ampy)
 
-### Einleitung
+## Einleitung
 ***
 
 Die M5Stack Main Controller können mittels:
@@ -36,7 +39,7 @@ Die nötigen Schritte sind im **Quick Start** jedes Controllers beschrieben.
 
 Die nachfolgenden Anleitungen gehen auf Besonderheiten ein, welche in den **Quick Start** Tutorials fehlen.
 
-### Hardware Driver
+## Hardware Driver
 ***
 
 > [⇧ **Nach oben**](#inhaltsverzeichnis)
@@ -48,7 +51,7 @@ Der Hardware Driver stellt einen USB Seriellen Port (Windows COMx, Linux/Mac /de
 * **M5Stack Controller** brauchen den [cp210x driver](https://docs.m5stack.com/en/quick_start/core2/m5stack_core2_get_started_MicroPython).
 * **M5Stick** und **Atom** brauchen den [FTDI USB Driver](https://docs.m5stack.com/en/quick_start/atom/atom_quick_start_uiflow). Der von Windows installierte Driver funktioniert nicht sauber.
 
-### Burning Tool
+## Burning Tool
 ***
 
 > [⇧ **Nach oben**](#inhaltsverzeichnis)
@@ -92,7 +95,15 @@ Eine Anleitung findet sich am Ende jeden **Quick Start** Tutorials.
 
 Ansonsten sind nur WLAN SSID und Password zu setzen. Die anderen Werte sollten auf den Standardeinstellungen belassen werden.
 
-### UIFlow
+### Videoanleitung - Installation M5Burner and Core2 UiFlow firmware flash
+![](videos/00_M5Burner.webm)
+
+
+### Videoanleitung - Umschaltung zwischen dem Internet Mode und App Mode - Developing / Deployment
+![](videos/01_SwitchAppModeInternetMode.webm)
+
+
+## UIFlow
 ***
 
 > [⇧ **Nach oben**](#inhaltsverzeichnis)
@@ -117,7 +128,7 @@ In der `Python` Ansicht sind evtl. bereits gespeicherte Python Scripts auf dem C
 
 **Tip**: [Web Version](https://flow.m5stack.com/) von UIFlow verwenden und gleichzeitig **COM Monitor** im [Burning Tool](#burning-tool) öffnen. Im **COM Monitor** werden Debugging und Fehlermeldungen angezeigt.
 
-### Ampy
+## Ampy
 ***
 
 > [⇧ **Nach oben**](#inhaltsverzeichnis)
