@@ -97,7 +97,7 @@ Im nachfolgenden Beispiel werden die MQTT Messages mit dem Tool [MQTT Explorer](
 
 Als Grundlage dient das Programm aus dem [cloud](../cloud) Abschnitt.
 
-![](videos/01_MQTT.webm)
+[![01_MQTT](images/01_MQTT.jpg)](https://raw.githubusercontent.com/alptbz/m242/main/mqtt/videos/01_MQTT.webm "01_MQTT")
 
 ## Links 
 

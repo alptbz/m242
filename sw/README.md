@@ -96,11 +96,11 @@ Eine Anleitung findet sich am Ende jeden **Quick Start** Tutorials.
 Ansonsten sind nur WLAN SSID und Password zu setzen. Die anderen Werte sollten auf den Standardeinstellungen belassen werden.
 
 ### Videoanleitung - Installation M5Burner and Core2 UiFlow firmware flash
-[![M5Burner](https://res.cloudinary.com/marcomontalbano/image/upload/v1645095050/video_to_markdown/images/video--65c6fe1b48063d06819b79db570016be-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://raw.githubusercontent.com/alptbz/m242/main/sw/videos/00_M5Burner.webm)
+[![M5Burner](images/00_M5Burner.jpg)](https://raw.githubusercontent.com/alptbz/m242/main/sw/videos/00_M5Burner.webm)
 
 
 ### Videoanleitung - Umschaltung zwischen dem Internet Mode und App Mode - Developing / Deployment
-[![SwitchAppModeInternetMode](https://res.cloudinary.com/marcomontalbano/image/upload/v1645095216/video_to_markdown/images/video--38975a9c139cabe014046c8224399d49-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://raw.githubusercontent.com/alptbz/m242/main/sw/videos/01_SwitchAppModeInternetMode.webm)
+[![SwitchAppModeInternetMode](images/01_SwitchAppModeInternetMode.jpg)](https://raw.githubusercontent.com/alptbz/m242/main/sw/videos/01_SwitchAppModeInternetMode.webm)
 
 
 ## UIFlow

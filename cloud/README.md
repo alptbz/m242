@@ -32,7 +32,7 @@ Befolgen Sie die offizielle Dokumentation von Azure IoT Hub:
 * Erstellen Sie einen neuen Hub im Azure-Portal ([Dokumentation](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-create-through-portal#create-an-iot-hub)). Für dieses Beispiel benötigen Sie einen Standard- Tier- Hub, um Cloud-to-Device-Nachrichten zu aktivieren. Dazu reicht die kostenlose Variante (Free Tier).
 * Registrieren Sie ein neues Gerät bei dem von Ihnen erstellten Hub ([Dokumentation](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-create-through-portal#register-a-new-device-in-the-iot-hub)).
 
-![](videos/01_AzureCreateIotHub.webm)
+[![AzureCreateIotHub](images/01_AzureCreateIotHub.jpg)](https://raw.githubusercontent.com/alptbz/m242/main/cloud/videos/01_AzureCreateIotHub.webm "AzureCreateIotHub")
 
 ### Beispiel 1 - Bidirektionale Kommunikation - RGB Bar & Button
 
@@ -115,12 +115,11 @@ Anschliessend sich einloggen, `azure-iot` Extension installieren und Events ausg
 
 Das nachfolgende Video zeigt, die Programmierung eines Beispielprogramms zur Übermittlung von Sensordaten (Temperatur und Feuchtigkeit) and die Azure Cloud. Voraussetzung ist, dass das Azure IoT bereits eingerichtet wurde (siehe vorangehendes Video). 
 
-![](videos/02_TempHum_FlowProgramming.webm)
+[![02_TempHum_FlowProgramming](images/02_TempHum_FlowProgramming.jpg)](https://raw.githubusercontent.com/alptbz/m242/main/cloud/videos/02_TempHum_FlowProgramming.webm "02_TempHum_FlowProgramming")
 
 Im zweiten Video wird auf Azure ein StreamAnalyticsJobs eingerichtet, der die *Messages* aus dem Azure IoT Hub lies und in das PowerBi(https://de.wikipedia.org/wiki/Power_BI) überträgt. Anschliessend werden mit PowerBi Diagramme erstellt, um die Sensordaten zu visualisieren. 
 
-![](videos/03_StreamQueryPowerBi.webm)
-
+[![03_StreamQueryPowerBi](images/03_StreamQueryPowerBi.jpg)](https://raw.githubusercontent.com/alptbz/m242/main/cloud/videos/03_StreamQueryPowerBi.webm "03_StreamQueryPowerBi")
 
 ### Links
 
