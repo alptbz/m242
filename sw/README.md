@@ -20,15 +20,32 @@
 ## Einleitung
 ***
 
-Die M5Stack Main Controller können mittels:
+![](images/frameworks.PNG)
+
+Die M5Stack Controller können auf unterschiedliche Arten programmiert werden: 
+
+| Programmiersprache | Library/Framework/Runtime | Tools                             |
+|--------------------|---------------------------|-----------------------------------|
+| C/C++              | [Arduino Library](https://www.arduino.cc/reference/en/libraries/)           | Arduino IDE, [Platformio](https://docs.platformio.org/en/stable/boards/espressif32/m5stack-core2.html)           |
+| C/C++              | [Espressif Framework](https://docs.platformio.org/en/stable/frameworks/espidf.html#framework-espidf)       | [Platformio](https://docs.platformio.org/en/stable/boards/espressif32/m5stack-core2.html)                        |
+| Python             | [MicroPython](https://micropython.org/)               | [Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=curdeveryday.vscode-m5stack-mpy) / [flow.m5stack](https://flow.m5stack.com/) |
+| C#                 | [.NET nanoframework](https://www.nanoframework.net/)        | [Visual Studio](https://marketplace.visualstudio.com/items?itemName=nanoframework.nanoFramework-VS2019-Extension)                     |
+
+
+Bei der Entwicklung mit dem *.NET nanoframework* oder *MicroPython* erfolgt die Ausführung der Applikation mithilfe einer Runtime, die zuvor auf den ESP geflasht wird. Das bringt Vorteile, wie einfacheres Debugging und die Möglichkeit [Höhere Programmiersprachen](https://de.wikipedia.org/wiki/H%C3%B6here_Programmiersprache) wie Python oder C# einzusetzen. Zudem muss sich der Entwickler nicht um komplexes Speichermanagement kümmern. Der Nachteil zeigt sich in einer schlechteren Performance. Zudem ist es meistens notwendig, dass Sensoren, Bus-Protokolle (I2C) in der Runtime implementiert sind, da die Implementation von Geräten in den höheren Programmiersprachen meistens schlechte Performance bringt. Weiter benötigt das flashen von [*Bare Metal Programmen*](https://en.wikipedia.org/wiki/Bare_machine) meistens viel Länger. 
+
+Um die [*Low -level Programmierung*](https://en.wikipedia.org/wiki/Low-level_programming_language) kommt man bei komplexeren Projekten früher oder später nicht herum. 
+
+Um die Welt von Mikroprozessoren und IoT Geräten besser kennenzulernen und den Einstieg zu erleichtern, empfiehlt es sich mit Höheren Programmiersprachen zu arbeiten, da C/C++ einige Hürden mit sich bringt. 
 
 * [UIFlow](https://docs.m5stack.com/en/quick_start/core2/m5stack_core2_get_started_MicroPython) - empfohlen
+* [.NET nanoframework](https://github.com/nanoframework/nanoFramework.M5Stack) - empfohlen
 * [Visual Studio Code mit Micropython](https://marketplace.visualstudio.com/items?itemName=curdeveryday.vscode-m5stack-mpy)
 * [Arduino IDE](https://docs.m5stack.com/en/arduino/arduino_core2_development)
 
-programmiert werden.
-
 Dazu ist, zuerst der richtige Hardware Driver zu installieren und anschliessend ein Firmware Update durchzuführen. 
+
+Die Videoanleitung weiter unten zeigt, wie man die UIFlow auf den M5stack flasht. 
 
 Die nötigen Schritte sind im **Quick Start** jedes Controllers beschrieben.
 
