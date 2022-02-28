@@ -172,6 +172,8 @@ Mit dem [vscode-m5stack-mpy](https://github.com/curdeveryday/vscode-m5stack-mpy)
 
 A Python-based, open-source, platform-independent utility to communicate with the ROM bootloader in Espressif chips.
 
+https://github.com/espressif/esptool
+
 ### Firmware löschen
 
 Teilweise spinnt der *M5Stack Core2* und es ist notwendig diesen komplett zurückzusetzen. 
