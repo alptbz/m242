@@ -15,6 +15,11 @@
     - [Videoanleitung - Installation M5Burner and Core2 UiFlow firmware flash](#videoanleitung---installation-m5burner-and-core2-uiflow-firmware-flash)
     - [Videoanleitung - Umschaltung zwischen dem Internet Mode und App Mode - Developing / Deployment](#videoanleitung---umschaltung-zwischen-dem-internet-mode-und-app-mode---developing--deployment)
   - [UIFlow](#uiflow)
+  - [Visual Studio Code (UIFlow Micropython)](#visual-studio-code-uiflow-micropython)
+    - [Fork - alptbz](#fork---alptbz)
+    - [Videoanleitung UiFlow Micropython with Visual Studio Code](#videoanleitung-uiflow-micropython-with-visual-studio-code)
+  - [esptool.py](#esptoolpy)
+    - [Firmware löschen](#firmware-löschen)
   - [Ampy](#ampy)
 
 ## Einleitung
@@ -144,6 +149,41 @@ In der `Python` Ansicht sind evtl. bereits gespeicherte Python Scripts auf dem C
 `main.py` ist I.d.R. das Hauptprogramm, welches im **App Mode** ausgeführt ist.
 
 **Tip**: [Web Version](https://flow.m5stack.com/) von UIFlow verwenden und gleichzeitig **COM Monitor** im [Burning Tool](#burning-tool) öffnen. Im **COM Monitor** werden Debugging und Fehlermeldungen angezeigt.
+
+
+## Visual Studio Code (UIFlow Micropython)
+***
+ - Modus: USB-Mode
+
+Mit dem [vscode-m5stack-mpy](https://github.com/curdeveryday/vscode-m5stack-mpy) Plugin kann der M5Stack Core2 bequem mit dem Visual Studio Code programmiert werden.
+
+### Fork - alptbz
+**Stand 28.02.2022:** Dem Original Plugin fehlt leider ein Serial Output. Deshalb wird empfohlen, diesen Fork zu verwenden: https://github.com/alptbz/vscode-m5stack-mpy/releases
+
+**Installation:**
+ - Ctrl + Shirt + P 
+ - `Extensions: Install from VSIX...` wählen
+ - Heruntergeladene VSIX Datei auswählen
+
+### Videoanleitung UiFlow Micropython with Visual Studio Code
+[![SwitchAppModeInternetMode](images/02_VisualStudioCode.jpg)](https://raw.githubusercontent.com/alptbz/m242/main/sw/videos/02_VisualStudioCode.webm)
+
+## esptool.py
+
+A Python-based, open-source, platform-independent utility to communicate with the ROM bootloader in Espressif chips.
+
+### Firmware löschen
+
+Teilweise spinnt der *M5Stack Core2* und es ist notwendig diesen komplett zurückzusetzen. 
+
+ - Im Verzeichnis von `esptool.exe` PowerShell öffnen
+ - Befehl unten eingeben. `COM?` ersetzen mit entsprechenden *serial port*. 
+```
+.\esptool.exe --port COM? erase_flash
+```
+ - M5stack Core2 ausstecken und mit dem Ein/Aus Schalter ausschalten.
+ - Den M5Stack Core2 wieder einstecken und einschalten. (Der Bildschirm bleibt schwarz)
+ - Weitere Schritte abhängig von gewünschter Firmware. 
 
 ## Ampy
 ***
