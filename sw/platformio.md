@@ -81,8 +81,17 @@ int value = 0;
 
 ![](images/platformiooutput.PNG)
 
+## Vorgehen
+Die Programmierung mit C/C++ ist herausfordernd und braucht viel Geduld und Durchhaltewille. Dazu kommt, dass es sich nicht um Standard C++ handelt, sondern um eine abgespeckte Variante für Microcontroller. Eine Übersicht dazu finden Sie auf [Arduino Reference](https://www.arduino.cc/reference/en/) und [IotKitV3 - C/C++ Intro](https://github.com/mc-b/IoTKitV3/tree/master/ccpp).
+
+Wenn ein neues Feature (z.B. ein neuer Sensor Unit) implementiert werden soll, empfiehlt es sich ein passendes Beispiel zu suchen. Für den M5Core2 lassen sich [hier](https://github.com/m5stack/M5Core2/tree/master/examples) sehr viele Beispiele finden. 
+
 
 ## Links
- - https://registry.platformio.org/libraries/m5stack/M5Core2
- - https://docs.platformio.org/en/stable/boards/espressif32/m5stack-core2.html
- - https://hci.uni-regensburg.de/events/erfinderworkshop_2019/m5stack-docs
+ - Library: https://github.com/m5stack/M5Core2
+ - API (Teilweise falsch): https://docs.m5stack.com/en/api/core2/axp192_core2
+ - Beispiele: https://github.com/m5stack/M5Core2/tree/master/examples
+ - M5Core2 Extension für PlatformIO (Wird automatisch installiert): https://registry.platformio.org/libraries/m5stack/M5Core2
+ - PlatformIO Dokumentation zu M5Core2: https://docs.platformio.org/en/stable/boards/espressif32/m5stack-core2.html
+ - Hilfreiche Seite von der Uni Regensburg: https://hci.uni-regensburg.de/events/erfinderworkshop_2019/m5stack-docs
+ - 
