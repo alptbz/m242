@@ -21,6 +21,7 @@
   - [esptool.py](#esptoolpy)
     - [Firmware löschen](#firmware-löschen)
   - [Ampy](#ampy)
+  - [PlatfromIO](#platfromio)
 
 ## Einleitung
 ***
@@ -213,3 +214,6 @@ Um mehrere Dateien zu kopieren und im **App Menu** verfügbar zu machen, ist
 
 * [Install ampy](https://learn.adafruit.com/micropython-basics-load-files-and-run-code/install-ampy)
 
+## PlatfromIO
+
+Siehe [PlatformIO Beispiel](platformio.md)
