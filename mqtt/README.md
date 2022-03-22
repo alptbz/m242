@@ -99,6 +99,41 @@ Als Grundlage dient das Programm aus dem [cloud](../cloud) Abschnitt.
 
 [![01_MQTT](images/01_MQTT.jpg)](https://raw.githubusercontent.com/alptbz/m242/main/mqtt/videos/01_MQTT.webm "01_MQTT")
 
+
+# MQTT - Java
+
+Ein Beispiel für einen MQTT Client mit Java und der Paho Library: https://github.com/alptbz/mqttdemo/
+
+```java
+...
+
+MemoryPersistence persistence = new MemoryPersistence();
+        client = new MqttClient(broker, clientId, persistence);
+        client.setCallback(this);
+        MqttConnectOptions connOpts = new MqttConnectOptions();
+        if(username != null) {
+            connOpts.setUserName(username);
+            connOpts.setPassword(password.toCharArray());
+        }
+        connOpts.setCleanSession(true);
+        logger.info("Connecting to broker: "+broker);
+        client.connect(connOpts);
+        logger.info("Connected");
+        isRunning = true;
+
+...
+```
+
+## Telegram + MQTT ChatBot Beispiele
+![chatbot](images/chatbot.PNG)
+
+Ein Chatbot ist ein nützliches Tool, um mit wenig Code schnell ein UI zu bauen. Der Chat kann nicht nur für die Steuerung wie auch als Log verwendet werden. 
+
+MQTT + Telegram Beispiele:
+ - **Python:** https://github.com/alptbz/mqtttelegramdemo
+ - **Java:** https://github.com/alptbz/mqtttelegramdemojava
+
+
 ## Links 
 
 *   [Ausführlicher Artikel auf heise.de](http://www.heise.de/developer/artikel/MQTT-Protokoll-fuer-das-Internet-der-Dinge-2168152.html)

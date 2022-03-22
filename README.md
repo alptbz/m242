@@ -34,6 +34,8 @@ Erweiterung und Ergänzungen von Philipp Albrecht.
 * [Internet of Things – Machine Learning Fast Data Pipeline mit Docker/Kubernetes](pipeline/)
 * [Wearables](wearables/)
 * [Roboter](robot/)
+* [MQTT / TelegramBot Backend Beispiel](https://github.com/alptbz/mqtttelegramdemo)
+
 
 ## Kurse und Weiterbildung 
 
