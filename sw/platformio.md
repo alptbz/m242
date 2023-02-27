@@ -86,6 +86,9 @@ Die Programmierung mit C/C++ ist herausfordernd und braucht viel Geduld und Durc
 
 Wenn ein neues Feature (z.B. ein neuer Sensor Unit) implementiert werden soll, empfiehlt es sich ein passendes Beispiel zu suchen. Für den M5Core2 lassen sich [hier](https://github.com/m5stack/M5Core2/tree/master/examples) sehr viele Beispiele finden. 
 
+# Beispiele
+
+Beispiele zur Standard-Library findet man hier: https://github.com/m5stack/M5Core2/tree/master/examples
 
 ## Links
  - Library: https://github.com/m5stack/M5Core2
