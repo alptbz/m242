@@ -11,6 +11,7 @@ Erweiterung und Ergänzungen von Philipp Albrecht.
 
 * [Hardware](hw/)
 * [Software und Installation](sw/)
+* [PlatformIO](/sw/platformio.md)
 * [GPIO](gpio)
 * [Sensoren](sensors)
 * [Aktoren](actors)
@@ -34,7 +35,9 @@ Erweiterung und Ergänzungen von Philipp Albrecht.
 * [Internet of Things – Machine Learning Fast Data Pipeline mit Docker/Kubernetes](pipeline/)
 * [Wearables](wearables/)
 * [Roboter](robot/)
-* [MQTT / TelegramBot Backend Beispiel](https://github.com/alptbz/mqtttelegramdemo)
+* [MQTT / TelegramBot Backend Python Beispiel](https://github.com/alptbz/mqtttelegramdemo)
+* [MQTT / TelegramBot Backend Java Beispiel](https://github.com/alptbz/mqtttelegramdemojava)
+* [MQTT / Grafana Backend Java Beispiel](https://github.com/alptbz/mqttgrafanademo)
 
 
 ## Kurse und Weiterbildung 

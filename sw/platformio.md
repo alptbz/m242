@@ -86,9 +86,13 @@ Die Programmierung mit C/C++ ist herausfordernd und braucht viel Geduld und Durc
 
 Wenn ein neues Feature (z.B. ein neuer Sensor Unit) implementiert werden soll, empfiehlt es sich ein passendes Beispiel zu suchen. Für den M5Core2 lassen sich [hier](https://github.com/m5stack/M5Core2/tree/master/examples) sehr viele Beispiele finden. 
 
-# Beispiele
+# Weitere Beispiele
 
-Beispiele zur Standard-Library findet man hier: https://github.com/m5stack/M5Core2/tree/master/examples
+**MQTT + LVGL (UI) + LED Beispiel:**<br>
+https://github.com/alptbz/core2numpad/
+
+**ToF Sensor + LVGL (UI):**<br>
+https://github.com/alptbz/core2guitofexample
 
 ## Links
  - Library: https://github.com/m5stack/M5Core2
@@ -97,4 +101,4 @@ Beispiele zur Standard-Library findet man hier: https://github.com/m5stack/M5Cor
  - M5Core2 Extension für PlatformIO (Wird automatisch installiert): https://registry.platformio.org/libraries/m5stack/M5Core2
  - PlatformIO Dokumentation zu M5Core2: https://docs.platformio.org/en/stable/boards/espressif32/m5stack-core2.html
  - Hilfreiche Seite von der Uni Regensburg: https://hci.uni-regensburg.de/events/erfinderworkshop_2019/m5stack-docs
- - 
+ - Beispiele zur Standard Library: https://github.com/m5stack/M5Core2/tree/master/examples
