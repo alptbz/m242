@@ -88,11 +88,14 @@ Wenn ein neues Feature (z.B. ein neuer Sensor Unit) implementiert werden soll, e
 
 # Weitere Beispiele
 
-**MQTT + LVGL (UI) + LED Beispiel:**<br>
+**MQTT + LVGL (UI) + FastLED Beispiel:**<br>
 https://github.com/alptbz/core2numpad/
 
 **ToF Sensor + LVGL (UI):**<br>
 https://github.com/alptbz/core2guitofexample
+
+**LVGL (UI) + FastLED Beispiel:**<br>
+https://github.com/alptbz/core2guidemo
 
 ## Links
  - Library: https://github.com/m5stack/M5Core2
