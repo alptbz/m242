@@ -12,6 +12,7 @@ Erweiterung und Ergänzungen von Philipp Albrecht.
 * [Hardware](hw/)
 * [Software und Installation](sw/)
 * [PlatformIO](/sw/platformio.md)
+* [No Busy Wait](/sw/nobusywait.md)
 * [GPIO](gpio)
 * [Sensoren](sensors)
 * [Aktoren](actors)
