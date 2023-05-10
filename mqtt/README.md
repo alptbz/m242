@@ -35,8 +35,33 @@ Oben sind alle möglichen Wildcard-Operatoren aufgelistet. Im ersten Fall bekomm
 
 Ein weiteres wichtiges Konzept sind die drei Servicequalitäten bei der Datenübertragung 0, 1 und 2. Die Zusicherung variiert von keiner Garantie (Level 0) über die, dass die Nachricht mindestens einmal ankommt (Level 1), bis hin zur Garantie, dass die Nachricht genau einmal ankommt (Level 2).
 
+
+# Libraries
+
+| Programmiersprache | Link                                                               |
+|--------------------|--------------------------------------------------------------------|
+| Java               | https://www.eclipse.org/paho/index.php?page=clients/java/index.php |
+| C#                 | https://github.com/dotnet/MQTTnet                                  |
+| Python             | https://pypi.org/project/paho-mqtt/                                |
+
+
+# Tool - MQTT Explorer
+
+![MQTT Explorer Screenshot](images/explorer.PNG)
+
+> MQTT Explorer is a comprehensive MQTT client that provides a structured overview of your MQTT topics and makes working with devices/services on your broker dead-simple.
+
+[http://mqtt-explorer.com/](http://mqtt-explorer.com/)
+
+Der MQTT Explorer ist das Entwickler Tool der ersten Wahl. Nicht nur erlaubt es das empfangen und verschicken (publish) von *MQTT messages*, sonder zeichnet auch den Verlauf von Nachrichten auf. 
+
+
 # MQTT Publish Beispiel 1
 ***
+
+![Übersichtsgrafik zu Beispiel 1](images/overview_example_1.PNG)
+
+In diesem Beispiel kommunizieren ein M5Stack Core(2) und ein Benutzerendgerät (z.B. Laptop des Studierenden) miteinander. MQTT steht einerseits als Library innerhalb verschiedener Frameworks zur Verfügung, andererseits gibt es auch Command Line Tools und MQTT Explorer, die vor allem für das Testen und integration in Bash Skripts o.ä. sehr nützlich sind. 
 
 Mittels Publish (unten) kann eine Meldung zum MQTT Broker bzw. Topic gesendet werden.
 
