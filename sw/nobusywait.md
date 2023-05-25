@@ -16,6 +16,8 @@ Der Code im nachfolgenden Beispiel wechselt die Farben des [LED Streifen](https:
 
 ![FlowUI Beispiel ohne Busy Wait 1](images/busywait_example2.PNG)
 
+**Hinweis: In diesem Beispiel fehlt noch die Initialisierung der Zustandsvariable!**
+
 ## Ohne Busy-Wait mit Next Event Berechnung
 
 ![FlowUI Beispiel ohne Busy Wait 1](images/busywait_example3.PNG)
